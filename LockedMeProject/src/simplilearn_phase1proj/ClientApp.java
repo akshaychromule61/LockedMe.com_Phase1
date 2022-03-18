@@ -1,7 +1,22 @@
 package simplilearn_phase1proj;
 
 import java.util.Scanner;
-
+/**
+ * Class Name: ClientApp
+ * This contain main of application
+ * Inside class
+ * Method Name: main
+ * Inside method:
+ * 1. Display welcome screen and main menu
+ * 2. Take input from user form menu options
+ * 3. Perform action according to user input
+ *    a.Retrieve all file
+ *    b.Add the file
+ *    c.Delete the file
+ *    b.Search file
+ *    c.Exit
+ * @author Akshaykumar Chormule
+ */
 final class ClientApp {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -24,7 +39,6 @@ final class ClientApp {
 				break;
 		default: System.out.println("You Entered Invalid Input");
 				break;
-				
 		}
 		}while(choice>0);
 		
